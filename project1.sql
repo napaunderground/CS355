@@ -1,4 +1,4 @@
-use nseiger;
+use someDatabase;
 
 drop table if exists GlobalRequests;
 drop table if exists Customers;

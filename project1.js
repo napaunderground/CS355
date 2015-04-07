@@ -7,8 +7,8 @@ var express    = require('express'),
 
 connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'nseiger',
-    password : '4428572'
+    user     : 'someUser',
+    password : 'numbers'
 });
 
 var app = module.exports = express.createServer();
